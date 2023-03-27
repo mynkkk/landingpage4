@@ -1,0 +1,561 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    /* background-color: rgb(33, 39, 39); */
+}
+.parent{
+    width: 100%;
+    height: 240%;
+    background-color: rgb(33, 39, 39);
+}
+.container1{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    background-color: black;
+}
+.container2{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    background-color: black;
+    
+
+}
+.boxc21{
+width: 50%;
+height: 70%;
+background-color: black;
+}
+.boxc22{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+.boxc23{
+    width: 50%;
+    height: 50%;
+    background-color:grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.container3{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 160%;
+    left: 10%;
+    background-color: black;
+}
+.ch1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.ch2{
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family:'Rubik Vinyl', cursive;;
+    font-weight: 900;
+    font-size: 50px;
+    font-style: inherit;
+}
+.boxc1{
+    width: 30%;
+    height: 1%;
+   background-color: rgb(219, 40, 79);
+   position: absolute;
+   top: 55%;
+   left: 15%;
+}
+.cp1{
+    /* text-align: center; */
+    color: rgb(232, 218, 200);
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    font-weight: 100;
+}
+.ch3{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    font-weight: 200;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+.c2h1{
+        color: white;
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        font-weight: 200;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: small;
+        font-style: italic;
+    }
+
+    .c2h2{
+        color: white;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    }
+    .c2h3{
+        color: white;
+        position: absolute;
+        top: 24%;
+        left: 15%;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        font-family: 'Rubik Vinyl', cursive;
+        font-weight: 600;
+        font-size: 22px;
+        font-style: inherit;
+    }
+    .c2p1{
+        position: absolute;
+        top: 33%;
+        left: 15%;
+        color: rgb(232, 218, 200);
+        font-weight: 100;
+    }
+.c2box21{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: black;
+    font-weight: 600;
+}
+.c2box22{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: black;
+    font-weight: bold;
+
+}
+.c2box23{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: black;
+    font-weight: normal;
+
+}
+.c2box24{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: black;
+    font-weight: lighter;
+
+}
+.c2pp1{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+
+}
+.c2pp2{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+.c2box31{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: black;
+    font-weight: 600;
+}
+.c2box32{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: black;
+    font-weight: bold;
+
+}
+.c2box33{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: black;
+    font-weight: normal;
+
+}
+.c2box34{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: black;
+    font-weight: lighter;
+
+}
+.c2ppp1{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+
+}
+.c2ppp2{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+.c3h1{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    font-weight: 200;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+.c3h2{
+    color: white;
+position: absolute;
+top: 20%;
+left: 15%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 20px;
+}
+.c3h3{
+    color: white;
+    position: absolute;
+    top: 24%;
+    left: 15%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: inherit;
+}
+.c3p1{
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    color: rgb(232, 218, 200);
+    font-weight: 100;
+}
+.c3p2{
+    color: rgb(232, 218, 200);
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+.c3box1{
+    width: 50%;
+    height: 70%;
+    background-color: black;
+    }
+    .c3box2{
+        width: 50%;
+        height: 50%;
+        /* background-color:tomato; */
+        background: rgb(205, 68, 50);
+        position: absolute;
+        top: 0%;
+        left: 50%;
+    }
+    .c3box3{
+        width: 50%;
+        height: 50%;
+        background-color:grey;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .z1, .z2, .z3, .z4 {
+        width: 50%;
+        height: 50%;
+    }
+    .z1{
+        background-color: black;
+    }
+    .z2{
+        background-color: rgb(62, 58, 58);
+    }
+    .z3{
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+    }
+    .z4{
+        background-color: silver;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    .c3h11{
+        position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    }
+    .c3pp1{
+        font-weight: 100;
+        color: rgb(232, 218, 200);
+        position: absolute;
+        top: 80%;
+        left: 10%;
+    }
+    .c3pp2{
+        font-weight: 100;
+        color: rgb(232, 218, 200);
+        position: absolute;
+        top: 80%;
+        left: 60%;   
+    }
+    h6{
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 2%;
+
+    }
+    .o1{
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o2{
+        color: white;
+        position: absolute;
+        top: 87%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o3{
+        color: white;
+        position: absolute;
+        top: 89%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o4{
+        color: white;
+        position: absolute;
+        top: 91%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o5{
+        color: white;
+        position: absolute;
+        top: 93%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o6{
+        color: white;
+        position: absolute;
+        top: 95%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+
+    .o11{
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o22{
+        color: white;
+        position: absolute;
+        top: 87%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o33{
+        color: white;
+        position: absolute;
+        top: 89%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o44{
+        color: white;
+        position: absolute;
+        top: 91%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o55{
+        color: white;
+        position: absolute;
+        top: 93%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o66{
+        color: white;
+        position: absolute;
+        top: 95%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+
+    .o111{
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o222{
+        color: white;
+        position: absolute;
+        top: 87%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o333{
+        color: white;
+        position: absolute;
+        top: 89%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o444{
+        color: white;
+        position: absolute;
+        top: 91%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o555{
+        color: white;
+        position: absolute;
+        top: 93%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .o666{
+        color: white;
+        position: absolute;
+        top: 95%;
+        left: 1%;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    .hh1{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+color: white;
+    }
+    .hh2{
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        color: white;
+    }
+    .hh3{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        color: black;
+    }
+    .hh4{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        color: black;
+    }
+    .h91{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        color: white;
+    }
+    .h92{
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        color: white;
+    }
+    .h93{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        color: black;
+    }
+    .h94{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        color: black;
+    }
